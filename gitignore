@@ -1,0 +1,48 @@
+# Xcode
+#
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.hmap
+
+# Xcode automatically generates this for local user settings,
+# no reason to share it
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm
+
+# CocoaPods (uncomment if you ever add pods)
+# Pods/
+
+# macOS
+.DS_Store
+
+# Obj-C/Swift specific
+*.hmap
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Never commit secrets. This project reads OPENAI_API_KEY from the
+# Xcode scheme's environment variables (Product > Scheme > Edit
+# Scheme), not from a file — but if you ever add a .env or a
+# plist holding keys, ignore it here too.
+.env
+Secrets.plist
